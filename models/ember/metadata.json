@@ -1,0 +1,22 @@
+{
+  "versions": {
+    "ember_2018": {
+      "path": "C:\\Users\\hup\\Desktop\\SentinelX\\models\\ember\\ember_trained.txt",
+      "version": "2018",
+      "feature_version": 2,
+      "source": "EMBER GitHub",
+      "description": "Pre-trained LightGBM model for EMBER 2018 dataset",
+      "requires_dataset": true
+    }
+  },
+  "feature_extraction": {
+    "library": "ember",
+    "version": 2,
+    "description": "Extracts PE file features using LIEF library"
+  },
+  "reference": {
+    "paper": "Anderson & Roth (2018) - EMBER: An Open Dataset for Training Static PE Malware ML Models",
+    "arxiv": "https://arxiv.org/abs/1804.04637",
+    "github": "https://github.com/elastic/ember"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "demo",
+  "features": 2357,
+  "samples_trained": 1000,
+  "framework": "LightGBM",
+  "format": "txt",
+  "train_auc": 1.0,
+  "test_auc": 0.8481848184818481,
+  "accuracy": 0.77,
+  "note": "Demo model trained on synthetic data. For production, use real EMBER dataset.",
+  "ember_compatible": true
+}
